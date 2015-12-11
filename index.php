@@ -19,12 +19,12 @@ $output = passthru("sed -e 's/$search/$replace/g' $filetmp > $file");
   <title>Trasporti Merano by Sasa</title>
   <link rel="stylesheet" href="http://necolas.github.io/normalize.css/2.1.3/normalize.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
+  <link rel="stylesheet" href="dist/leaflet.css" />
   <link rel="stylesheet" href="dist/MarkerCluster.css" />
   <link rel="stylesheet" href="dist/MarkerCluster.Default.css" />
   <meta property="og:image" content="http://www.piersoft.it/sasa/images/bus_.png"/>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+  <script src="dist/leaflet.js"></script>
   <script src="lib/proj4-compressed.js"></script>
   <script src="src/proj4leaflet.js"></script>
   <script src="dist/leafletdin.js"></script>
